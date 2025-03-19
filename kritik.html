@@ -1,0 +1,53 @@
+<DOCTYPE html>
+    <html lang="id">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Sekolah</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+
+    <body>
+        <div id="page">
+            <header id="header">
+                <div id="section">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="LOGO PAL.jpg" alt="logo sekolah">
+                        </a>
+                    </div>
+                    <span>
+                        <strong>SMK BISA BROW</strong>
+                    </span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="beranda.html">Beranda</a></li>
+                         <li><a href="profil.html">Profil</a></li>
+                         <li><a href="kritik.html">Kritik dan Saran</a></li>
+                         <li class="current"><a href="struktur.html">Struktur Kelas</a></li>
+                    </ul>
+                </nav>
+            </header>
+                <main id="content"></main>
+                    <!--Bagian kritik dan saran -->
+                    <section>
+                        <h2>Kritik dan Saran</h2>
+                        <form action="#" method="post">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="massage">pesan:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            
+                            <button type="submit">kirim</button>
+                        </form>
+                    </section>
+                </main>    
+        </div>
+    </body>
+    </html>
